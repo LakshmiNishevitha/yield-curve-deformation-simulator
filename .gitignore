@@ -1,0 +1,15 @@
+# Virtual env
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Data artifacts (recommended)
+data/*.parquet

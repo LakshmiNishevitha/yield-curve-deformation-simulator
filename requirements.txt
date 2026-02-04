@@ -1,0 +1,8 @@
+pandas
+numpy
+pyarrow
+scipy
+matplotlib
+streamlit
+pandas_datareader
+
