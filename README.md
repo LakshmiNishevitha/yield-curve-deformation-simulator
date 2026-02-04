@@ -83,7 +83,7 @@ pip install -r requirements.txt
 ```
 ---
 
-##Fetch Yield Curve Data (FRED)
+Fetch Yield Curve Data (FRED)
 This project pulls daily Treasury Constant Maturity yields directly from FRED.
 ```bash
 python src/data_fetch.py
@@ -93,7 +93,7 @@ This generates:
 data/yields.parquet
 ```
 ---
-##Run the Streamlit App
+Run the Streamlit App
 ```bash
 streamlit run app_curve.py
 ```
@@ -112,7 +112,7 @@ The app will open locally (usually at http://localhost:8501).
 - This makes the engine easy to extend (e.g., zero-curve bootstrapping, key-rate DV01, portfolio aggregation)
 
 ---
-##Future Extensions
+Future Extensions
 - Zero-curve bootstrapping from par yields
 - Key-rate DV01 and factor sensitivities
 - Portfolio-level aggregation
